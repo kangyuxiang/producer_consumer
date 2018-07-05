@@ -61,6 +61,26 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
+    <ClInclude Include="consumer.h" />
+    <ClInclude Include="lockqueue.h" />
+    <ClInclude Include="model.h" />
+    <ClInclude Include="msg.h" />
+    <ClInclude Include="producer.h" />
+    <ClInclude Include="threadpool.h" />
+    <ClInclude Include="workthreadpool.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="consumer.cpp" />
+    <ClCompile Include="lockqueue.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="model.cpp" />
+    <ClCompile Include="msg.cpp" />
+    <ClCompile Include="producer.cpp" />
+    <ClCompile Include="threadpool.cpp" />
+    <ClCompile Include="workthreadpool.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="makefile" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
